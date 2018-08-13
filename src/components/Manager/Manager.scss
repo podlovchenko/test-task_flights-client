@@ -1,0 +1,38 @@
+.manager {
+  width: 80%;
+
+  &__header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  &__tab {
+    font-size: 32px;
+    font-weight: bold;
+    color: #02a3c1;
+
+    &:hover,
+    &_active {
+      color: #1e326a;
+    }
+  }
+
+  &__content {
+    margin-top: 40px;
+  }
+
+  &__loading {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  &__not-found {
+    text-align: center;
+    font-size: 32px;
+    color: #02a3c1;
+  }
+}
