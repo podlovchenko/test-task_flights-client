@@ -1,2 +1,2 @@
 server<br>
-github https://github.com/podlovchenko/api_flights
+https://github.com/podlovchenko/test-task_flights-server
